@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <!--Conteúdo do cabeçalho-->
+        <title>Login</title>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+        <link rel="shortcut icon" type="image" href="logo fin.jpg"/>
+
+        <link type="text/css" rel="stylesheet" href="estilo_login.css">
+
+        <!--Bootstrap CSS-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    </head>
+
+    <body>
+ 
+        <div id="login-container">
+        <h1>FINTECH</h1>
+        <form action="">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="Digite seu e-mail" autocomplete="off">
+            <label for="senha">Senha</label>
+            <input type="password" name="password" id="password" placeholder="Digite sua senha" autocomplete="off">
+            <a href="#" name="forgot-pass" id="forgot-pass">Esqueceu a senha?</a>
+            
+            <input type="submit" value="Acessar">
+        </form>
+
+        <div id="social-container">
+            <p>Ou acesse por suas redes sociais</p>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-google"></i>
+        </div>
+
+        <div id="register-container">
+            <a href="#">Criar conta</a>
+        </div>
+    </body>
+</html>
